@@ -1,0 +1,306 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Oct 22 17:49:20 2019
+# Process ID: 17820
+# Current directory: C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/proj/key_debounce.runs/synth_1
+# Command line: vivado.exe -log key_jitter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source key_jitter.tcl
+# Log file: C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/proj/key_debounce.runs/synth_1/key_jitter.vds
+# Journal file: C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/proj/key_debounce.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source key_jitter.tcl -notrace
+Command: synth_design -top key_jitter -part xc7a35tfgg484-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 22224 
+WARNING: [Synth 8-2507] parameter declaration becomes local in key with formal parameter declaration list [C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/design/key.v:12]
+WARNING: [Synth 8-2507] parameter declaration becomes local in key with formal parameter declaration list [C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/design/key.v:13]
+WARNING: [Synth 8-2507] parameter declaration becomes local in key with formal parameter declaration list [C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/design/key.v:14]
+WARNING: [Synth 8-2507] parameter declaration becomes local in key with formal parameter declaration list [C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/design/key.v:15]
+WARNING: [Synth 8-2507] parameter declaration becomes local in key with formal parameter declaration list [C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/design/key.v:16]
+WARNING: [Synth 8-2611] redeclaration of ansi port led_o is not allowed [C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/design/key_jitter.v:7]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 389.273 ; gain = 110.164
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'key_jitter' [C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/design/key_jitter.v:1]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/design/key_jitter.v:7]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/design/key_jitter.v:8]
+INFO: [Synth 8-6157] synthesizing module 'key' [C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/design/key.v:1]
+	Parameter CLK_FREQ bound to: 100000000 - type: integer 
+	Parameter CNT_10MS bound to: 999999 - type: integer 
+	Parameter KEY_S0 bound to: 2'b00 
+	Parameter KEY_S1 bound to: 2'b01 
+	Parameter KEY_S2 bound to: 2'b10 
+	Parameter KEY_S3 bound to: 2'b11 
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/design/key.v:18]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/design/key.v:19]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/design/key.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'key' (1#1) [C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/design/key.v:1]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'key0'. This will prevent further optimization [C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/design/key_jitter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'key_jitter' (2#1) [C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/design/key_jitter.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 422.480 ; gain = 143.371
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 422.480 ; gain = 143.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 422.480 ; gain = 143.371
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tfgg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/proj/key_debounce.srcs/constrs_1/new/key.xdc]
+Finished Parsing XDC File [C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/proj/key_debounce.srcs/constrs_1/new/key.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/proj/key_debounce.srcs/constrs_1/new/key.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/key_jitter_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/key_jitter_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 755.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 755.250 ; gain = 476.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tfgg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 755.250 ; gain = 476.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 755.250 ; gain = 476.141
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'key_s_reg' in module 'key'
+INFO: [Synth 8-5544] ROM "key_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "key_s" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-6159] Found Keep on FSM register 'key_s_reg' in module 'key', re-encoding will not be performed
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 755.250 ; gain = 476.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module key_jitter 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+Module key 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 755.250 ; gain = 476.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 761.129 ; gain = 482.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 780.488 ; gain = 501.379
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 780.488 ; gain = 501.379
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 780.488 ; gain = 501.379
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 780.488 ; gain = 501.379
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 780.488 ; gain = 501.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 780.488 ; gain = 501.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 780.488 ; gain = 501.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 780.488 ; gain = 501.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     5|
+|3     |LUT1   |     6|
+|4     |LUT3   |     1|
+|5     |LUT4   |     3|
+|6     |LUT5   |     2|
+|7     |LUT6   |     4|
+|8     |FDRE   |    28|
+|9     |IBUF   |     3|
+|10    |OBUF   |     4|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    57|
+|2     |  key0   |key    |    40|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 780.488 ; gain = 501.379
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 780.488 ; gain = 168.609
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 780.488 ; gain = 501.379
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 780.488 ; gain = 514.523
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/proj/key_debounce.runs/synth_1/key_jitter.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file key_jitter_utilization_synth.rpt -pb key_jitter_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 780.488 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 22 17:49:55 2019...

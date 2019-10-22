@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Oct 22 17:52:12 2019
+# Process ID: 12028
+# Current directory: C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/proj/key_debounce.runs/impl_1
+# Command line: vivado.exe -log key_jitter.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source key_jitter.tcl -notrace
+# Log file: C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/proj/key_debounce.runs/impl_1/key_jitter.vdi
+# Journal file: C:/Users/mingf/Desktop/github/my_fpga_utilities/KeyDebounce/proj/key_debounce.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source key_jitter.tcl -notrace
