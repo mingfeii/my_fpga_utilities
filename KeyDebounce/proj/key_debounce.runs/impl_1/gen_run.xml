@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tfgg484-2" LaunchTime="1571737758">
+<GenRun Id="impl_1" LaunchPart="xc7a35tfgg484-2" LaunchTime="1571742470">
+  <File Type="OPT-HWDEF" Name="key_jitter.hwdef"/>
+  <File Type="ROUTE-BUS-SKEW" Name="key_jitter_bus_skew_routed.rpt"/>
+  <File Type="PA-DCP" Name="key_jitter.dcp"/>
   <File Type="BITSTR-BMM" Name="key_jitter_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="key_jitter_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="key_jitter_timing_summary_init.rpt"/>
@@ -10,7 +13,6 @@
   <File Type="ROUTE-PWR-SUM" Name="key_jitter_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="key_jitter_reports.tcl"/>
   <File Type="OPT-DRC" Name="key_jitter_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="key_jitter.hwdef"/>
   <File Type="PWROPT-DCP" Name="key_jitter_pwropt.dcp"/>
   <File Type="PWROPT-DRC" Name="key_jitter_drc_pwropted.rpt"/>
   <File Type="PWROPT-TIMING" Name="key_jitter_timing_summary_pwropted.rpt"/>
@@ -22,7 +24,6 @@
   <File Type="PLACE-CTRL" Name="key_jitter_control_sets_placed.rpt"/>
   <File Type="PLACE-SIMILARITY" Name="key_jitter_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="key_jitter_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BGN" Name="key_jitter.bgn"/>
   <File Type="PLACE-TIMING" Name="key_jitter_timing_summary_placed.rpt"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="key_jitter_postplace_pwropt.dcp"/>
   <File Type="BG-BIN" Name="key_jitter.bin"/>
@@ -52,7 +53,6 @@
   <File Type="ROUTE-TIMING-RPX" Name="key_jitter_timing_summary_routed.rpx"/>
   <File Type="ROUTE-SIMILARITY" Name="key_jitter_incremental_reuse_routed.rpt"/>
   <File Type="ROUTE-CLK" Name="key_jitter_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="key_jitter_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="key_jitter_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="key_jitter_bus_skew_routed.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="key_jitter_postroute_physopt.dcp"/>
@@ -66,6 +66,7 @@
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="key_jitter_bus_skew_postroute_physopted.rpx"/>
   <File Type="BITSTR-RBT" Name="key_jitter.rbt"/>
   <File Type="BITSTR-NKY" Name="key_jitter.nky"/>
+  <File Type="BG-BGN" Name="key_jitter.bgn"/>
   <File Type="BG-DRC" Name="key_jitter.drc"/>
   <File Type="RDI-RDI" Name="key_jitter.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
