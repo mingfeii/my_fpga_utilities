@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2700185 on Thu Oct 24 18:46:05 MDT 2019
+# IP Build 2699827 on Thu Oct 24 21:16:38 MDT 2019
+# Start of session at: Sun Nov  3 16:52:25 2019
+# Process ID: 4212
+# Current directory: C:/Users/mingf/Desktop/github/ddr3_hdmi/ddr3_hdmi.runs/wr_data_fifo_synth_1
+# Command line: vivado.exe -log wr_data_fifo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source wr_data_fifo.tcl
+# Log file: C:/Users/mingf/Desktop/github/ddr3_hdmi/ddr3_hdmi.runs/wr_data_fifo_synth_1/wr_data_fifo.vds
+# Journal file: C:/Users/mingf/Desktop/github/ddr3_hdmi/ddr3_hdmi.runs/wr_data_fifo_synth_1\vivado.jou
+#-----------------------------------------------------------
+source wr_data_fifo.tcl -notrace

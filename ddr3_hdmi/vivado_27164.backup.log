@@ -1,0 +1,109 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2700185 on Thu Oct 24 18:46:05 MDT 2019
+# IP Build 2699827 on Thu Oct 24 21:16:38 MDT 2019
+# Start of session at: Sun Nov  3 12:52:38 2019
+# Process ID: 27164
+# Current directory: C:/Users/mingf/Desktop/github/ddr3_hdmi
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11488 C:\Users\mingf\Desktop\github\ddr3_hdmi\ddr3_hdmi.xpr
+# Log file: C:/Users/mingf/Desktop/github/ddr3_hdmi/vivado.log
+# Journal file: C:/Users/mingf/Desktop/github/ddr3_hdmi\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mingf/Desktop/github/ddr3_hdmi/ddr3_hdmi.xpr
+INFO: [Project 1-313] Project file moved from 'D:/document/DDR3ฝฬังสำฦต/ddr3_hdmi' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'cmd_fifo' is locked:
+* IP definition 'FIFO Generator (13.2)' for IP 'cmd_fifo' (customized with software release 2018.1) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'rd_data_fifo' is locked:
+* IP definition 'FIFO Generator (13.2)' for IP 'rd_data_fifo' (customized with software release 2018.1) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'wr_data_fifo' is locked:
+* IP definition 'FIFO Generator (13.2)' for IP 'wr_data_fifo' (customized with software release 2018.1) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'mig_7series_0' is locked:
+* IP definition 'Memory Interface Generator (MIG 7 Series) (4.1)' for IP 'mig_7series_0' (customized with software release 2018.1) has a newer minor version in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
+* IP definition 'Clocking Wizard (6.0)' for IP 'clk_wiz_0' (customized with software release 2018.1) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_1' is locked:
+* IP definition 'Clocking Wizard (6.0)' for IP 'clk_wiz_1' (customized with software release 2018.1) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'buffer_fifo' is locked:
+* IP definition 'FIFO Generator (13.2)' for IP 'buffer_fifo' (customized with software release 2018.1) has a different revision in the IP Catalog.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 765.844 ; gain = 136.488
+update_compile_order -fileset sources_1
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a35tfgg484-2
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.445 . Memory (MB): peak = 1080.047 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 351 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'clk_wiz_12/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+INFO: [Constraints 18-4397] Generator change detected checking ShapeConfig Enum. shapeDB will be regenerated.
+Parsing XDC File [C:/Users/mingf/Desktop/github/ddr3_hdmi/ddr3_hdmi.runs/impl_1/top_ddr3_hdmi_ctrl_routed/top_ddr3_hdmi_ctrl_board.xdc]
+Finished Parsing XDC File [C:/Users/mingf/Desktop/github/ddr3_hdmi/ddr3_hdmi.runs/impl_1/top_ddr3_hdmi_ctrl_routed/top_ddr3_hdmi_ctrl_board.xdc]
+Parsing XDC File [C:/Users/mingf/Desktop/github/ddr3_hdmi/ddr3_hdmi.runs/impl_1/top_ddr3_hdmi_ctrl_routed/top_ddr3_hdmi_ctrl_early.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/mingf/Desktop/github/ddr3_hdmi/ddr3_hdmi.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [C:/Users/mingf/Desktop/github/ddr3_hdmi/ddr3_hdmi.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1831.980 ; gain = 578.113
+INFO: [Timing 38-2] Deriving generated clocks [C:/Users/mingf/Desktop/github/ddr3_hdmi/ddr3_hdmi.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xdc:57]
+Finished Parsing XDC File [C:/Users/mingf/Desktop/github/ddr3_hdmi/ddr3_hdmi.runs/impl_1/top_ddr3_hdmi_ctrl_routed/top_ddr3_hdmi_ctrl_early.xdc]
+Parsing XDC File [C:/Users/mingf/Desktop/github/ddr3_hdmi/ddr3_hdmi.runs/impl_1/top_ddr3_hdmi_ctrl_routed/top_ddr3_hdmi_ctrl.xdc]
+Finished Parsing XDC File [C:/Users/mingf/Desktop/github/ddr3_hdmi/ddr3_hdmi.runs/impl_1/top_ddr3_hdmi_ctrl_routed/top_ddr3_hdmi_ctrl.xdc]
+Parsing XDC File [C:/Users/mingf/Desktop/github/ddr3_hdmi/ddr3_hdmi.runs/impl_1/top_ddr3_hdmi_ctrl_routed/top_ddr3_hdmi_ctrl_late.xdc]
+Finished Parsing XDC File [C:/Users/mingf/Desktop/github/ddr3_hdmi/ddr3_hdmi.runs/impl_1/top_ddr3_hdmi_ctrl_routed/top_ddr3_hdmi_ctrl_late.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1831.980 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1831.980 ; gain = 0.000
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1831.980 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 128 instances were transformed.
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT(x2), INV, OBUFTDS(x2)): 2 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS(x2)): 1 instance 
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 108 instances
+  SRLC32E => SRL16E: 1 instance 
+
+open_run: Time (s): cpu = 00:00:43 ; elapsed = 00:00:31 . Memory (MB): peak = 1842.844 ; gain = 930.305
+open_report: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1950.109 ; gain = 68.641
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+report_ip_status -name ip_status 
+upgrade_ip -srcset buffer_fifo [get_ips  {buffer_fifo clk_wiz_0 clk_wiz_1 cmd_fifo mig_7series_0 rd_data_fifo wr_data_fifo}] -log ip_upgrade.log
+Upgrading 'buffer_fifo'
+INFO: [Project 1-386] Moving file 'C:/Users/mingf/Desktop/github/ddr3_hdmi/ddr3_hdmi.srcs/sources_1/ip/buffer_fifo/buffer_fifo.xci' from fileset 'buffer_fifo' to fileset 'sources_1'.
+INFO: [IP_Flow 19-3422] Upgraded buffer_fifo (FIFO Generator 13.2) from revision 2 to revision 5
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'buffer_fifo'...
+Upgrading 'clk_wiz_0'
+INFO: [Project 1-386] Moving file 'C:/Users/mingf/Desktop/github/ddr3_hdmi/ddr3_hdmi.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' from fileset 'clk_wiz_0' to fileset 'sources_1'.
+INFO: [IP_Flow 19-3422] Upgraded clk_wiz_0 (Clocking Wizard 6.0) from revision 0 to revision 4
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+Upgrading 'clk_wiz_1'
+INFO: [Project 1-386] Moving file 'C:/Users/mingf/Desktop/github/ddr3_hdmi/ddr3_hdmi.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xci' from fileset 'clk_wiz_1' to fileset 'sources_1'.
+INFO: [IP_Flow 19-3422] Upgraded clk_wiz_1 (Clocking Wizard 6.0) from revision 0 to revision 4
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_1'...
+Upgrading 'cmd_fifo'
+INFO: [IP_Flow 19-3422] Upgraded cmd_fifo (FIFO Generator 13.2) from revision 2 to revision 5
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'cmd_fifo'...
+Upgrading 'mig_7series_0'
+INFO: [IP_Flow 19-1972] Upgraded mig_7series_0 from Memory Interface Generator (MIG 7 Series) 4.1 to Memory Interface Generator (MIG 7 Series) 4.2
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'mig_7series_0'...
+Upgrading 'rd_data_fifo'
+INFO: [IP_Flow 19-3422] Upgraded rd_data_fifo (FIFO Generator 13.2) from revision 2 to revision 5
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'rd_data_fifo'...
+Upgrading 'wr_data_fifo'
+INFO: [IP_Flow 19-3422] Upgraded wr_data_fifo (FIFO Generator 13.2) from revision 2 to revision 5
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'wr_data_fifo'...
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/mingf/Desktop/github/ddr3_hdmi/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:34 ; elapsed = 00:00:32 . Memory (MB): peak = 2246.324 ; gain = 204.773
+export_ip_user_files -of_objects [get_ips {buffer_fifo clk_wiz_0 clk_wiz_1 cmd_fifo mig_7series_0 rd_data_fifo wr_data_fifo}] -no_script -sync -force -quiet
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  3 13:02:53 2019...

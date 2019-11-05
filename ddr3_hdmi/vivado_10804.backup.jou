@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Oct 11 09:30:11 2018
+# Process ID: 10804
+# Current directory: F:/ddr3_hdmi
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10668 F:\ddr3_hdmi\ddr3_hdmi.xpr
+# Log file: F:/ddr3_hdmi/vivado.log
+# Journal file: F:/ddr3_hdmi\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/ddr3_hdmi/ddr3_hdmi.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+launch_simulation
+reset_simulation -simset sim_1 -mode post-synthesis -type timing
+launch_simulation
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+launch_simulation
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+launch_simulation
+launch_simulation
+launch_simulation
+set_property target_simulator XSim [current_project]
+launch_simulation
+source tb_top_ddr3_hdmi.tcl
+current_wave_config {Untitled 1}
+add_wave {{/tb_top_ddr3_hdmi/top_ddr3_hdmi_ctrl_inst/hdmi_ctrl_inst}} 
+current_wave_config {Untitled 1*}
+add_wave {{/tb_top_ddr3_hdmi/top_ddr3_hdmi_ctrl_inst/hdmi_ddr3_buffer_inst}} 
+current_wave_config {Untitled 1*}
+add_wave {{/tb_top_ddr3_hdmi/top_ddr3_hdmi_ctrl_inst/hdmi_ddr3_buffer_inst/buffer_fifo_1}} 
+current_wave_config {Untitled 1*}
+add_wave {{/tb_top_ddr3_hdmi/top_ddr3_hdmi_ctrl_inst/A7_DDR3_CTRL_inst/u_mig_7series_0}} 
+current_wave_config {Untitled 1*}
+add_wave {{/tb_top_ddr3_hdmi/top_ddr3_hdmi_ctrl_inst/A7_DDR3_CTRL_inst/u_mig_7series_0}} 
+current_wave_config {Untitled 1*}
+add_wave {{/tb_top_ddr3_hdmi/top_ddr3_hdmi_ctrl_inst/user_rd_ctrl_inst}} 
+run all
+close_sim

@@ -1,0 +1,1005 @@
+Vivado Simulator 2018.1
+Time resolution is 1 fs
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: file design.txt could not be opened
+ *** Warning: The analog data file design.txt for XADC instance tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.temp_mon_enabled.u_tempmon.xadc_supplied_temperature.XADC_inst was not found. Use the SIM_MONITOR_FILE parameter to specify the analog data file name or use the default name: design.txt.
+
+############# Write Clocks PLLE2_ADV Parameters #############
+
+nCK_PER_CLK      =       4
+CLK_PERIOD       =    5000
+CLKIN1_PERIOD    =   5.000
+DIVCLK_DIVIDE    =       1
+CLKFBOUT_MULT    =       4
+VCO_PERIOD       =  1250.0
+CLKOUT0_DIVIDE_F =       1
+CLKOUT1_DIVIDE   =       2
+CLKOUT2_DIVIDE   =      32
+CLKOUT3_DIVIDE   =       8
+CLKOUT0_PERIOD   =    1250
+CLKOUT1_PERIOD   =    2500
+CLKOUT2_PERIOD   =   40000
+CLKOUT3_PERIOD   =   10000
+CLKOUT4_PERIOD   =    5000
+############################################################
+
+############# MMCME2_ADV Parameters #############
+
+MMCM_MULT_F           =           8
+MMCM_VCO_FREQ (MHz)   = 800.000
+MMCM_VCO_PERIOD       = 1250.000
+#################################################
+
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : BYTE_LANES_B0 = c BYTE_LANES_B1 = e DATA_CTL_B0 = c DATA_CTL_B1 = 0
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : HIGHEST_LANE =           8 HIGHEST_LANE_B0 =           4 HIGHEST_LANE_B1 =           4
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : HIGHEST_BANK =           2
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : FREQ_REF_PERIOD         = 1250.00 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : DDR_TCK                 = 2500 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_S2_TAPS_SIZE         = 9.77 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_EARLY       = 1 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_OFFSET      = 1219.75 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_META_ZONE   = 200.00 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_STG2_FINE_INTR_DLY   = 769.25 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_STG2_COARSE_INTR_DLY = 511.00 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_STG2_INTRINSIC_DELAY = 1280.25 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_DELAY       = 60 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_INTRINSIC_DELAY      = 1280.25 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_DELAY                = 1866.19 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_OCLK_DELAY           = 0 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : L_PHY_0_PO_FINE_DELAY   = 60 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_STG1_INTRINSIC_DELAY = 0.00 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_STG2_INTRINSIC_DELAY = 744.00 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_INTRINSIC_DELAY      = 744.00 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_MAX_STG2_DELAY       = 615.23 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_OFFSET               = -78.00 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : a negative PI_OFFSET means that rclk path is longer than oclk path so rclk will be delayed to next oclk edge and the negedge of rclk may be used.
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_STG2_DELAY           = 615.23 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy :PI_STG2_DELAY_CAND       = 1172.00 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : DEFAULT_RCLK_DELAY      = 63 
+tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : RCLK_SELECT_EDGE        = 0 
+WARNING: tb_top_ddr3_hdmi.top_ddr3_hdmi_ctrl_inst.A7_DDR3_CTRL_inst.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy: The required delay though the phaser_in to internally match the aux_out clock  to ddr clock exceeds the maximum allowable delay. The clock edge  will occur at the output registers of aux_out 556.77 ps before the ddr clock  edge. If aux_out is used for memory inputs, this may violate setup or hold time.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+tb_top_ddr3_hdmi.ddr3_model_inst.reset at time 1945100.0 ps WARNING: 200 us is required before RST_N goes inactive.
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task at time 2010814.0 ps WARNING: 500 us is required after RST_N goes inactive before CKE goes active.
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 2323314.0 ps INFO: Load Mode 2
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 2323314.0 ps INFO: Load Mode 2 Partial Array Self Refresh = Bank 0-7
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 2323314.0 ps INFO: Load Mode 2 CAS Write Latency =           5
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 2323314.0 ps INFO: Load Mode 2 Auto Self Refresh = Disabled
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 2323314.0 ps INFO: Load Mode 2 Self Refresh Temperature = Normal
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 2323314.0 ps INFO: Load Mode 2 Dynamic ODT = Disabled
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 3623314.0 ps INFO: Load Mode 3
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 3623314.0 ps INFO: Load Mode 3 MultiPurpose Register Select = Pre-defined pattern
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 3623314.0 ps INFO: Load Mode 3 MultiPurpose Register Enable = Disabled
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 4923314.0 ps INFO: Load Mode 1
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 4923314.0 ps INFO: Load Mode 1 DLL Enable = Enabled
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 4923314.0 ps INFO: Load Mode 1 Output Drive Strength =          34 Ohm
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 4923314.0 ps INFO: Load Mode 1 ODT Rtt =          60 Ohm
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 4923314.0 ps INFO: Load Mode 1 Additive Latency = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 4923314.0 ps INFO: Load Mode 1 Write Levelization = Disabled
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 4923314.0 ps INFO: Load Mode 1 TDQS Enable = Disabled
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 4923314.0 ps INFO: Load Mode 1 Qoff = Enabled
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 6223314.0 ps INFO: Load Mode 0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 6223314.0 ps INFO: Load Mode 0 Burst Length =  8
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 6223314.0 ps INFO: Load Mode 0 Burst Order = Sequential
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 6223314.0 ps INFO: Load Mode 0 CAS Latency =           6
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 6223314.0 ps INFO: Load Mode 0 DLL Reset = Reset DLL
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 6223314.0 ps INFO: Load Mode 0 Write Recovery =           6
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 6223314.0 ps INFO: Load Mode 0 Power Down Mode = DLL off
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 7523314.0 ps INFO: ZQ        long = 1
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 7523314.0 ps INFO: Initialization Sequence is complete
+PHY_INIT: Memory Initialization completed at 9995100.0 ps
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 10103314.0 ps INFO: Activate  bank 0 row 0000
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11403314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11413314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11417064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11418314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11419564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11420814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11422064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11423314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11423314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11424564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11425814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11427064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11428314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11429564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11430814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11432064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11433314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11433314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11434564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11435814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11437064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11438314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11439564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11440814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11442064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11443314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11443314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11444564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11445814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11447064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11448314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11449564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11450814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11452064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11453314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11453314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11454564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11455814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11457064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11458314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11459564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11460814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11462064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11463314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11463314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11464564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11465814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11467064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11468314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11469564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11470814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11472064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11473314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11473314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11474564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11475814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11477064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11478314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11479564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11480814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11482064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11483314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11483314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11484564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11485814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11487064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11488314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11489564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11490814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11492064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11493314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11493314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11494564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11495814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11497064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11498314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11499564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11500814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11502064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11503314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11503314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11504564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11505814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11507064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11508314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11509564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11510814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11512064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11513314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11513314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11514564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11515814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11517064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11518314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11519564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11520814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11522064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11523314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11523314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11524564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11525814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11527064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11528314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11529564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11530814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11532064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11533314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11533314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11534564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+PHY_INIT: Phaser_In Phase Locked at 11535100.0 ps
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11535814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11537064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11538314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11539564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11540814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11542064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11543314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11543314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11544564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11545814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11547064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11548314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11549564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11550814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11552064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11553314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11553314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11554564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11555814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11557064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11558314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11559564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11560814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11562064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11563314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11563314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11564564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11565814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11567064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11568314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11569564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11570814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11572064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11573314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11573314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11574564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11575814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11577064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11578314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11579564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11580814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11582064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11583314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11583314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11584564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11585814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11587064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11588314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11589564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11590814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11592064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11593314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11593314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11594564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11595814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11597064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11598314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11599564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11600814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11602064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11603314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 11603314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11604564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11605814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11607064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11608314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11609564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11610814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11612064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11613314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11614564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11615814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11617064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11618314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11619564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11620814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11622064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11623314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11624564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 11625814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 12903314.0 ps INFO: Precharge All
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 12903314.0 ps INFO: Precharge bank   0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 14203314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 15503314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 16803314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 18103314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 19403314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 20703314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 22003314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 23303314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 24603314.0 ps INFO: Activate  bank 0 row 0000
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 25903314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 25913314.0 ps INFO: Read      bank 0 col 008, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25917064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25918314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25919564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25920814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25922064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25923314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 25923314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25924564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25925814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25927064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000008 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25928314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000009 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25929564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000a data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25930814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000b data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25932064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000c data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25933314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000d data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 25933314.0 ps INFO: Read      bank 0 col 008, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25934564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000e data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25935814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000f data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25937064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25938314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25939564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25940814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25942064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25943314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25944564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25945814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25947064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000008 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25948314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000009 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25949564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000a data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25950814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000b data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25952064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000c data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25953314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000d data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25954564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000e data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 25955814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000f data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 27233314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 27243314.0 ps INFO: Read      bank 0 col 008, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27247064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27248314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27249564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27250814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27252064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27253314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 27253314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27254564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27255814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27257064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000008 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27258314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000009 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27259564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000a data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27260814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000b data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27262064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000c data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27263314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000d data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 27263314.0 ps INFO: Read      bank 0 col 008, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27264564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000e data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27265814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000f data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27267064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27268314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27269564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27270814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27272064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27273314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27274564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27275814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27277064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000008 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27278314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000009 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27279564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000a data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27280814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000b data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27282064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000c data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27283314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000d data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27284564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000e data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 27285814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000f data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 28563314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 28573314.0 ps INFO: Read      bank 0 col 008, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28577064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28578314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28579564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28580814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28582064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28583314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 28583314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28584564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28585814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28587064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000008 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28588314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000009 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28589564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000a data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28590814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000b data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28592064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000c data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28593314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000d data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 28593314.0 ps INFO: Read      bank 0 col 008, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28594564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000e data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28595814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000f data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28597064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28598314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28599564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28600814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28602064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28603314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28604564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28605814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28607064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000008 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28608314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000009 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28609564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000a data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28610814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000b data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28612064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000c data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28613314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000d data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28614564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000e data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 28615814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000f data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 29893314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 29903314.0 ps INFO: Read      bank 0 col 008, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29907064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29908314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29909564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29910814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29912064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29913314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 29913314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29914564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29915814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29917064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000008 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29918314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000009 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29919564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000a data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29920814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000b data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29922064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000c data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29923314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000d data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 29923314.0 ps INFO: Read      bank 0 col 008, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29924564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000e data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29925814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000f data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29927064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29928314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29929564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29930814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29932064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29933314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29934564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29935814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29937064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000008 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29938314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000009 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29939564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000a data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29940814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000b data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29942064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000c data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29943314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000d data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29944564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000e data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 29945814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000f data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 31223314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 31233314.0 ps INFO: Read      bank 0 col 008, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31237064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31238314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31239564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31240814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31242064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31243314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 31243314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31244564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31245814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31247064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000008 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31248314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000009 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31249564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000a data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31250814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000b data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31252064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000c data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31253314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000d data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 31253314.0 ps INFO: Read      bank 0 col 008, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31254564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000e data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31255814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000f data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31257064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31258314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31259564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31260814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31262064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31263314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31264564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31265814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31267064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000008 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31268314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000009 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31269564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000a data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31270814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000b data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31272064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000c data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31273314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000d data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31274564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000e data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 31275814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000f data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 32553314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 32563314.0 ps INFO: Read      bank 0 col 008, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32567064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32568314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32569564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32570814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32572064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32573314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 32573314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32574564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32575814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32577064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000008 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32578314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000009 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32579564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000a data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32580814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000b data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32582064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000c data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32583314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000d data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 32583314.0 ps INFO: Read      bank 0 col 008, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32584564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000e data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32585814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000f data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32587064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32588314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32589564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32590814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32592064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32593314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32594564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32595814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32597064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000008 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32598314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000009 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32599564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000a data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32600814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000b data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32602064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000c data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32603314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000d data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32604564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000e data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 32605814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000f data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 33883314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 33893314.0 ps INFO: Read      bank 0 col 008, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33897064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33898314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33899564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33900814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33902064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33903314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 33903314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33904564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33905814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33907064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000008 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33908314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000009 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33909564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000a data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33910814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000b data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33912064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000c data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33913314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000d data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 33913314.0 ps INFO: Read      bank 0 col 008, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33914564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000e data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33915814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000f data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33917064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33918314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33919564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33920814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33922064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33923314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33924564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33925814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33927064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000008 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33928314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000009 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33929564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000a data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33930814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000b data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33932064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000c data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33933314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000d data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33934564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000e data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 33935814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000f data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 35213314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 35223314.0 ps INFO: Read      bank 0 col 008, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35227064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35228314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35229564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35230814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35232064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35233314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 35233314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35234564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35235814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35237064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000008 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35238314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000009 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35239564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000a data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35240814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000b data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35242064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000c data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35243314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000d data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 35243314.0 ps INFO: Read      bank 0 col 008, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35244564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000e data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35245814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000f data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35247064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35248314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35249564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35250814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35252064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35253314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35254564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35255814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35257064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000008 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35258314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000009 data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35259564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000a data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35260814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000b data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35262064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000c data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35263314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000d data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35264564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000e data = xxxx
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 35265814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 0000000f data = xxxx
+PHY_INIT: Phaser_In DQSFOUND completed at 35355100.0 ps
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 36543314.0 ps INFO: Precharge All
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 36543314.0 ps INFO: Precharge bank   0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 37843314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 39143314.0 ps INFO: Load Mode 1
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 39143314.0 ps INFO: Load Mode 1 DLL Enable = Enabled
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 39143314.0 ps INFO: Load Mode 1 Output Drive Strength =          34 Ohm
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 39143314.0 ps INFO: Load Mode 1 ODT Rtt =          60 Ohm
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 39143314.0 ps INFO: Load Mode 1 Additive Latency = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 39143314.0 ps INFO: Load Mode 1 Write Levelization = Enabled
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 39143314.0 ps INFO: Load Mode 1 TDQS Enable = Disabled
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 39143314.0 ps INFO: Load Mode 1 Qoff = Enabled
+tb_top_ddr3_hdmi.ddr3_model_inst.main: at time 39278314.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39542236.0 ps WARNING: tWLS violation on DQS bit  0 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39542236.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39542236.0 ps WARNING: tWLS violation on DQS bit  1 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39542236.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39544736.0 ps WARNING: tWLS violation on DQS bit  0 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39544736.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39544736.0 ps WARNING: tWLS violation on DQS bit  1 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39544736.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39547236.0 ps WARNING: tWLS violation on DQS bit  0 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39547236.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39547236.0 ps WARNING: tWLS violation on DQS bit  1 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39547236.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39549736.0 ps WARNING: tWLS violation on DQS bit  0 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39549736.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39549736.0 ps WARNING: tWLS violation on DQS bit  1 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39549736.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39552236.0 ps WARNING: tWLS violation on DQS bit  0 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39552236.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39552236.0 ps WARNING: tWLS violation on DQS bit  1 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39552236.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39672236.0 ps WARNING: tWLS violation on DQS bit  0 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39672236.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39672236.0 ps WARNING: tWLS violation on DQS bit  1 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39672236.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39674736.0 ps WARNING: tWLS violation on DQS bit  0 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39674736.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39674736.0 ps WARNING: tWLS violation on DQS bit  1 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39674736.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39677236.0 ps WARNING: tWLS violation on DQS bit  0 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39677236.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39677236.0 ps WARNING: tWLS violation on DQS bit  1 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39677236.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39679736.0 ps WARNING: tWLS violation on DQS bit  0 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39679736.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39679736.0 ps WARNING: tWLS violation on DQS bit  1 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39679736.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39682236.0 ps WARNING: tWLS violation on DQS bit  0 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39682236.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39682236.0 ps WARNING: tWLS violation on DQS bit  1 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39682236.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39802236.0 ps WARNING: tWLS violation on DQS bit  0 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39802236.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39802236.0 ps WARNING: tWLS violation on DQS bit  1 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39802236.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39804736.0 ps WARNING: tWLS violation on DQS bit  0 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39804736.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39804736.0 ps WARNING: tWLS violation on DQS bit  1 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39804736.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39807236.0 ps WARNING: tWLS violation on DQS bit  0 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39807236.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39807236.0 ps WARNING: tWLS violation on DQS bit  1 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39807236.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39809736.0 ps WARNING: tWLS violation on DQS bit  0 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39809736.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39809736.0 ps WARNING: tWLS violation on DQS bit  1 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39809736.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39812236.0 ps WARNING: tWLS violation on DQS bit  0 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39812236.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39812236.0 ps WARNING: tWLS violation on DQS bit  1 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39812236.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39932255.0 ps WARNING: tWLS violation on DQS bit  0 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39932255.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39932255.0 ps WARNING: tWLS violation on DQS bit  1 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39932255.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39934755.0 ps WARNING: tWLS violation on DQS bit  0 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39934755.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39934755.0 ps WARNING: tWLS violation on DQS bit  1 positive edge.  Indeterminate CK capture is possible.
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39934755.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39937265.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39937265.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39939765.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39939765.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39942265.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 39942265.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40062323.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40062323.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40064823.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40064823.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40067323.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40067323.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40069823.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40069823.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40072323.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40072323.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40192382.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40192382.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40194882.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40194882.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40197382.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40197382.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40199892.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40199892.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40202392.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40202392.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40322450.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40322450.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40324950.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40324950.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40327450.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40327450.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40329950.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40329950.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40332450.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40332450.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40452509.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40452509.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40455009.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40455009.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40457519.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40457519.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40460019.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40460019.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40462519.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40462519.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40582577.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40582577.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40585077.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40585077.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40587577.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40587577.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40590077.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40590077.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40592577.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40592577.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40712636.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40712636.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40715136.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40715136.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40717636.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40717636.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40720146.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40720146.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40722646.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40722646.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40842998.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40842998.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40845498.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40845498.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40847998.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40847998.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40850498.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40850498.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40852998.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40852998.0 ps Write Leveling @ DQS ck = 0
+PHY_INIT: Write Leveling completed at 40935100.0 ps
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40972998.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40972998.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40975498.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40975498.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40977998.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40977998.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40980498.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40980498.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40982998.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.dqs_pos_timing_check: at time 40982998.0 ps Write Leveling @ DQS ck = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.main: at time 41008314.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 41063314.0 ps INFO: Load Mode 1
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 41063314.0 ps INFO: Load Mode 1 DLL Enable = Enabled
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 41063314.0 ps INFO: Load Mode 1 Output Drive Strength =          34 Ohm
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 41063314.0 ps INFO: Load Mode 1 ODT Rtt =          60 Ohm
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 41063314.0 ps INFO: Load Mode 1 Additive Latency = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 41063314.0 ps INFO: Load Mode 1 Write Levelization = Disabled
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 41063314.0 ps INFO: Load Mode 1 TDQS Enable = Disabled
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 41063314.0 ps INFO: Load Mode 1 Qoff = Enabled
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 42363314.0 ps INFO: Load Mode 2
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 42363314.0 ps INFO: Load Mode 2 Partial Array Self Refresh = Bank 0-7
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 42363314.0 ps INFO: Load Mode 2 CAS Write Latency =           5
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 42363314.0 ps INFO: Load Mode 2 Auto Self Refresh = Disabled
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 42363314.0 ps INFO: Load Mode 2 Self Refresh Temperature = Normal
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 42363314.0 ps INFO: Load Mode 2 Dynamic ODT = Disabled
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 44943314.0 ps INFO: Precharge All
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 46243314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 47543314.0 ps INFO: Activate  bank 0 row 0000
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 48843314.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.main: at time 48848314.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 48853314.0 ps INFO: Write     bank 0 col 008, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48857064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48858314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48859564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48860814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48862064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48863314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 48863314.0 ps INFO: Write     bank 0 col 010, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48864564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = 9999
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48865814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = 6666
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48867064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000008 data = bbbb
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48868314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000009 data = 1111
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48869564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000000a data = eeee
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48870814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000000b data = 4444
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48872064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000000c data = 4444
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48873314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000000d data = eeee
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 48873314.0 ps INFO: Write     bank 0 col 018, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48874564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000000e data = dddd
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48875814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000000f data = 8888
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48877064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000010 data = bbbb
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48878314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000011 data = 1111
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48879564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000012 data = eeee
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48880814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000013 data = 4444
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48882064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000014 data = 4444
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48883314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000015 data = eeee
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48884564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000016 data = dddd
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48885814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000017 data = 8888
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48887064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000018 data = bbbb
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48888314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000019 data = 1111
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48889564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000001a data = eeee
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48890814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000001b data = 4444
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48892064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000001c data = 4444
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48893314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000001d data = eeee
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48894564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000001e data = dddd
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 48895814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000001f data = 8888
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 50173314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.main: at time 50178314.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 50187064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 50188314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 50189564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 50190814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 50192064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 50193314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 50194564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = 9999
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 50195814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = 6666
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 51473314.0 ps INFO: Precharge All
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 51473314.0 ps INFO: Precharge bank   0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 52773314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 54073314.0 ps INFO: Activate  bank 0 row 0000
+PHY_INIT: Write Calibration completed at 55465100.0 ps
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 56653314.0 ps INFO: Precharge All
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 56653314.0 ps INFO: Precharge bank   0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 57953314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 59253314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 60553314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 61853314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 63153314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 64453314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 65753314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 67053314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 68353314.0 ps INFO: Activate  bank 0 row 0000
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 69653314.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.main: at time 69658314.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 69663314.0 ps INFO: Write     bank 0 col 008, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69667064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = 9999
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69668314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 3333
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69669564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = 7777
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69670814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = eeee
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69672064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = cccc
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69673314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = 9999
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 69673314.0 ps INFO: Write     bank 0 col 010, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69674564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = 2222
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69675814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = 4444
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69677064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000008 data = bbbb
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69678314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000009 data = 1111
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69679564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000000a data = 7777
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69680814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000000b data = eeee
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69682064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000000c data = cccc
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69683314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000000d data = 9999
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 69683314.0 ps INFO: Write     bank 0 col 018, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69684564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000000e data = 2222
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69685814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000000f data = 4444
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69687064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000010 data = bbbb
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69688314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000011 data = 1111
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69689564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000012 data = 7777
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69690814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000013 data = eeee
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69692064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000014 data = cccc
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69693314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000015 data = 9999
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69694564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000016 data = 2222
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69695814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000017 data = 4444
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69697064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000018 data = bbbb
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69698314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000019 data = 1111
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69699564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000001a data = 7777
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69700814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000001b data = eeee
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69702064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000001c data = cccc
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69703314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000001d data = 9999
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69704564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000001e data = 2222
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 69705814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000001f data = 4444
+tb_top_ddr3_hdmi.ddr3_model_inst.main: at time 70988314.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 72493314.0 ps INFO: Precharge All
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 72493314.0 ps INFO: Precharge bank   0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 73793314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 75093314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 76393314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 77693314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 78993314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 80293314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 81593314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 82893314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 84193314.0 ps INFO: Activate  bank 0 row 0000
+PHY_INIT: Read Leveling Stage 1 completed at 85575100.0 ps
+PHY_INIT : PRBS/PER_BIT calibration completed at 85575100.0 ps
+PHY_INIT : COMPLEX OCLKDELAY calibration completed at 85575100.0 ps
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 88053314.0 ps INFO: Precharge All
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 88053314.0 ps INFO: Precharge bank   0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 89353314.0 ps INFO: Load Mode 0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 89353314.0 ps INFO: Load Mode 0 Burst Length =  8
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 89353314.0 ps INFO: Load Mode 0 Burst Order = Sequential
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 89353314.0 ps INFO: Load Mode 0 CAS Latency =           6
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 89353314.0 ps INFO: Load Mode 0 DLL Reset = Normal
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 89353314.0 ps INFO: Load Mode 0 Write Recovery =           6
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 89353314.0 ps INFO: Load Mode 0 Power Down Mode = DLL off
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 90653314.0 ps INFO: Precharge All
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 91953314.0 ps INFO: Activate  bank 0 row 0000
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 93253314.0 ps INFO: Precharge All
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 93253314.0 ps INFO: Precharge bank   0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 94553314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 95853314.0 ps INFO: Activate  bank 0 row 0000
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 97153314.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.main: at time 97158314.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 97163314.0 ps INFO: Write     bank 0 col 008, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97167064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97168314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97169564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97170814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97172064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97173314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 97173314.0 ps INFO: Write     bank 0 col 010, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97174564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = 9999
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97175814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = 6666
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97177064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000008 data = bbbb
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97178314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000009 data = 1111
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97179564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000000a data = eeee
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97180814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000000b data = 4444
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97182064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000000c data = 4444
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97183314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000000d data = eeee
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 97183314.0 ps INFO: Write     bank 0 col 018, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97184564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000000e data = dddd
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97185814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000000f data = 8888
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97187064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000010 data = bbbb
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97188314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000011 data = 1111
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97189564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000012 data = eeee
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97190814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000013 data = 4444
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97192064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000014 data = 4444
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97193314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000015 data = eeee
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97194564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000016 data = dddd
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97195814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000017 data = 8888
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97197064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000018 data = bbbb
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97198314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000019 data = 1111
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97199564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000001a data = eeee
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97200814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000001b data = 4444
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97202064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000001c data = 4444
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97203314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000001d data = eeee
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97204564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000001e data = dddd
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 97205814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 0000001f data = 8888
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 98483314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.main: at time 98488314.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 98497064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 98498314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 98499564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 98500814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 98502064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 98503314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 98504564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = 9999
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 98505814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = 6666
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 98933314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 98947064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 98948314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 98949564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 98950814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 98952064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 98953314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 98954564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = 9999
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 98955814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = 6666
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 100233314.0 ps INFO: Precharge All
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 100233314.0 ps INFO: Precharge bank   0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 101533314.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 102833314.0 ps INFO: Activate  bank 0 row 0000
+PHY_INIT: Write Calibration completed at 104385100.0 ps
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 105413314.0 ps INFO: Precharge All
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 105413314.0 ps INFO: Precharge bank   0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 106810814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 106970814.0 ps INFO: Activate  bank 0 row 0000
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 107033314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 107043314.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 107047064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 107048314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 107049564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 107050814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 107052064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 107053314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 107054564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = 9999
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 107055814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = 6666
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 107057064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 107058314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 107059564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 107060814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 107062064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 107063314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 107064564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = 9999
+tb_top_ddr3_hdmi.ddr3_model_inst.data_task: at time 107065814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = 6666
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 107085814.0 ps INFO: Precharge bank   0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 107110814.0 ps INFO: ZQ        long = 0
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 114220814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 121620814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 129020814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 136420814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 143820814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 151220814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 158620814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 166020814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 173420814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 180820814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 188220814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 195620814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 203020814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 210420814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 217820814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 225220814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 232620814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 240020814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 247420814.0 ps INFO: Refresh  
+tb_top_ddr3_hdmi.ddr3_model_inst.cmd_task: at time 254820814.0 ps INFO: Refresh  

@@ -1,0 +1,140 @@
+# do {tb_top_ddr3_hdmi_simulate.do}
+# vsim -voptargs=""+acc"" -L xil_defaultlib -L fifo_generator_v13_2_2 -L unisims_ver -L unimacro_ver -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.tb_top_ddr3_hdmi xil_defaultlib.glbl 
+# Start time: 10:36:16 on Oct 11,2018
+# //  ModelSim DE-64 10.6c Jul 26 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading xil_defaultlib.tb_top_ddr3_hdmi
+# Loading xil_defaultlib.top_ddr3_hdmi_ctrl
+# Loading xil_defaultlib.hdmi_ctrl
+# Loading xil_defaultlib.vga
+# Loading xil_defaultlib.encode
+# Loading xil_defaultlib.par2ser
+# Loading unisims_ver.OBUFDS
+# Loading unisims_ver.OSERDESE2
+# Loading secureip.B_OSERDESE2
+# Loading xil_defaultlib.hdmi_ddr3_buffer
+# Loading xil_defaultlib.buffer_fifo
+# Loading xil_defaultlib.A7_DDR3_CTRL
+# Loading xil_defaultlib.mig_7series_0
+# Loading xil_defaultlib.mig_7series_0_mig
+# Loading xil_defaultlib.mig_7series_v4_1_iodelay_ctrl
+# Loading unisims_ver.IDELAYCTRL
+# Loading xil_defaultlib.mig_7series_v4_1_clk_ibuf
+# Loading xil_defaultlib.mig_7series_v4_1_infrastructure
+# Loading unisims_ver.PLLE2_ADV
+# Loading unisims_ver.BUFG
+# Loading unisims_ver.BUFH
+# Loading xil_defaultlib.mig_7series_v4_1_memc_ui_top_std
+# Loading xil_defaultlib.mig_7series_v4_1_mem_intfc
+# Loading xil_defaultlib.mig_7series_v4_1_mc
+# Loading xil_defaultlib.mig_7series_v4_1_rank_mach
+# Loading xil_defaultlib.mig_7series_v4_1_rank_common
+# Loading xil_defaultlib.mig_7series_v4_1_round_robin_arb
+# Loading xil_defaultlib.mig_7series_v4_1_bank_mach
+# Loading xil_defaultlib.mig_7series_v4_1_bank_common
+# Loading xil_defaultlib.mig_7series_v4_1_arb_mux
+# Loading xil_defaultlib.mig_7series_v4_1_arb_row_col
+# Loading xil_defaultlib.mig_7series_v4_1_arb_select
+# Loading xil_defaultlib.mig_7series_v4_1_col_mach
+# Loading xil_defaultlib.mig_7series_v4_1_ddr_phy_top
+# Loading xil_defaultlib.mig_7series_v4_1_ddr_mc_phy_wrapper
+# Loading unisims_ver.OBUF
+# Loading xil_defaultlib.mig_7series_v4_1_ddr_of_pre_fifo
+# Loading xil_defaultlib.mig_7series_v4_1_ddr_mc_phy
+# Loading xil_defaultlib.mig_7series_v4_1_ddr_calib_top
+# Loading xil_defaultlib.mig_7series_v4_1_ddr_prbs_gen
+# Loading xil_defaultlib.mig_7series_v4_1_ddr_phy_init
+# Loading xil_defaultlib.mig_7series_v4_1_ddr_phy_wrcal
+# Loading xil_defaultlib.mig_7series_v4_1_ddr_phy_tempmon
+# Loading xil_defaultlib.mig_7series_v4_1_ui_top
+# Loading xil_defaultlib.mig_7series_v4_1_ui_cmd
+# Loading xil_defaultlib.mig_7series_v4_1_ui_wr_data
+# Loading xil_defaultlib.mig_7series_v4_1_ui_rd_data
+# Loading xil_defaultlib.arbit
+# Loading xil_defaultlib.cmd_fifo
+# Loading xil_defaultlib.wr_data_fifo
+# Loading xil_defaultlib.a7_wr_ctrl
+# Loading xil_defaultlib.rd_data_fifo
+# Loading xil_defaultlib.a7_rd_ctrl
+# Loading xil_defaultlib.user_rd_ctrl
+# Loading xil_defaultlib.clk_wiz_0
+# Loading xil_defaultlib.clk_wiz_0_clk_wiz
+# Loading unisims_ver.IBUF
+# Loading unisims_ver.MMCME2_ADV
+# Loading xil_defaultlib.clk_wiz_1
+# Loading xil_defaultlib.clk_wiz_1_clk_wiz
+# Loading sv_std.std
+# Loading xil_defaultlib.ddr3_model
+# Loading xil_defaultlib.glbl
+# Loading fifo_generator_v13_2_2.fifo_generator_vlog_beh
+# Loading xil_defaultlib.mig_7series_v4_1_rank_cntrl
+# Loading unisims_ver.SRLC32E
+# Loading xil_defaultlib.mig_7series_v4_1_bank_cntrl
+# Loading xil_defaultlib.mig_7series_v4_1_bank_compare
+# Loading xil_defaultlib.mig_7series_v4_1_bank_state
+# Loading xil_defaultlib.mig_7series_v4_1_bank_queue
+# Loading unisims_ver.RAM32M
+# Loading xil_defaultlib.mig_7series_v4_1_ddr_phy_4lanes
+# Loading unisims_ver.BUFIO
+# Loading unisims_ver.PHY_CONTROL
+# Loading secureip.SIP_PHY_CONTROL
+# Loading unisims_ver.PHASER_REF
+# Loading unisims_ver.OBUFT
+# Loading unisims_ver.IOBUF_INTERMDISABLE
+# Loading unisims_ver.IOBUFDS_DIFF_OUT_INTERMDISABLE
+# Loading xil_defaultlib.mig_7series_v4_1_poc_pd
+# Loading unisims_ver.IDDR
+# Loading xil_defaultlib.mig_7series_v4_1_ddr_phy_wrlvl
+# Loading xil_defaultlib.mig_7series_v4_1_ddr_phy_ck_addr_cmd_delay
+# Loading xil_defaultlib.mig_7series_v4_1_ddr_phy_dqs_found_cal_hr
+# Loading xil_defaultlib.mig_7series_v4_1_ddr_phy_rdlvl
+# Loading xil_defaultlib.mig_7series_v4_1_ddr_phy_prbs_rdlvl
+# Loading xil_defaultlib.mig_7series_v4_1_tempmon
+# Loading fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER
+# Loading xil_defaultlib.mig_7series_v4_1_ddr_byte_lane
+# Loading unisims_ver.PHASER_OUT_PHY
+# Loading secureip.SIP_PHASER_OUT
+# Loading unisims_ver.OUT_FIFO
+# Loading secureip.SIP_OUT_FIFO
+# Loading xil_defaultlib.mig_7series_v4_1_ddr_byte_group_io
+# Loading unisims_ver.XADC
+# Loading fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_as
+# Loading fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_preload0
+# Loading unisims_ver.ISERDESE2
+# Loading secureip.B_ISERDESE2
+# Loading unisims_ver.IDELAYE2
+# Loading unisims_ver.ODDR
+# Loading xil_defaultlib.mig_7series_v4_1_ddr_if_post_fifo
+# Loading unisims_ver.PHASER_IN_PHY
+# Loading secureip.SIP_PHASER_IN
+# Loading unisims_ver.IN_FIFO
+# Loading secureip.SIP_IN_FIFO
+# Loading fifo_generator_v13_2_2.fifo_generator_v13_2_2_sync_stage
+# ** Warning: (vsim-3391) Requested memory 16576 Mbytes exceeds physical memory 8143 Mbytes.
+# The simulator may cause significant paging to disk to occur during a run.
+# ** Error: (vsim-3) System call VirtualAlloc() failed.
+# ** Fatal: (vsim-4) ****** Memory allocation failure. *****
+# Attempting to allocate 4294967320 bytes
+# Please check your system for available memory and swap space.
+# ** Fatal: (vsim-4) ****** Memory allocation failure. *****
+# Attempting to allocate 4294967320 bytes
+# Please check your system for available memory and swap space.
+# ** Fatal: (vsim-4) ****** Memory allocation failure. *****
+# Attempting to allocate 4294967296 bytes
+# Please check your system for available memory and swap space.
+# ** Fatal: (vsim-4) ****** Memory allocation failure. *****
+# Attempting to allocate 4294967296 bytes
+# Please check your system for available memory and swap space.
+# End time: 10:37:21 on Oct 11,2018, Elapsed time: 0:01:05
+# Errors: 3, Warnings: 1

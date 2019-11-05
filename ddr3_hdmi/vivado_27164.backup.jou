@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2700185 on Thu Oct 24 18:46:05 MDT 2019
+# IP Build 2699827 on Thu Oct 24 21:16:38 MDT 2019
+# Start of session at: Sun Nov  3 12:52:38 2019
+# Process ID: 27164
+# Current directory: C:/Users/mingf/Desktop/github/ddr3_hdmi
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11488 C:\Users\mingf\Desktop\github\ddr3_hdmi\ddr3_hdmi.xpr
+# Log file: C:/Users/mingf/Desktop/github/ddr3_hdmi/vivado.log
+# Journal file: C:/Users/mingf/Desktop/github/ddr3_hdmi\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mingf/Desktop/github/ddr3_hdmi/ddr3_hdmi.xpr
+update_compile_order -fileset sources_1
+open_run impl_1
+report_ip_status -name ip_status 
+upgrade_ip -srcset buffer_fifo [get_ips  {buffer_fifo clk_wiz_0 clk_wiz_1 cmd_fifo mig_7series_0 rd_data_fifo wr_data_fifo}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {buffer_fifo clk_wiz_0 clk_wiz_1 cmd_fifo mig_7series_0 rd_data_fifo wr_data_fifo}] -no_script -sync -force -quiet
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
